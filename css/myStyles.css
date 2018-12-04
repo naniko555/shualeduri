@@ -1,0 +1,133 @@
+.main{
+	margin: 1.5%;
+}
+
+.navigation{
+	display: inline-block;
+	width: 100%;
+}
+.navigation img{
+	float: left;
+}
+.navigation-ul{
+	float: right;
+}
+
+
+.navigation-ul li{
+	display: inline-block;
+	color: #C7C7C7;
+	text-transform: uppercase;
+	margin-left: 125px;
+}
+
+
+
+
+.imageholder1{
+	background-image:url("../images/girls.jpg");
+	display: inline-block;
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+}
+
+.container{
+    margin: 5%;
+  	display: inline-block;
+}
+
+/*photodairy*/
+
+.section-photodairy p{
+text-transform: uppercase;
+color: #C7C7C7;
+}
+.section-photodairy h1{
+	color: #636363
+}
+.section-photodairy div{
+	color: #636363
+}
+.section-photodairy-p2{
+	margin-top: 50px;
+}
+
+
+/*inner container*/
+.container-inner{
+	margin: 100px;
+
+}
+
+
+/*orad gavyavi shida kontainer*/
+.container-inner-first{
+	display: inline-block;
+	float: left;
+	width: 45%;
+
+
+}
+.container-inner-second{
+	display: inline-block;
+	float: right;
+	width: 45%;
+}
+/*#############################################*/
+.container-inner-first-image{
+	width: 100%;
+	height:500px;
+	background-image: url("../images/img1.jpg");
+	background-size:cover;
+}
+.container-inner-second-image{
+	width: 100%;
+	height:500px;
+	background-image: url("../images/img2.jpg");
+	background-size: cover;
+}
+/*################################################*/
+.container-inner-first-text p:first-child {
+color: #636363;
+text-transform: uppercase;
+}
+.container-inner-second-text p:first-child{
+color: #636363;
+text-transform: uppercase;
+}
+
+
+/*##################################################*/
+.container-inner-first-image2{
+	width: 100%;
+	height:500px;
+	background-image: url("../images/bridge.jpg");
+	background-size:cover;
+}
+.container-inner-second-image2{
+	width: 100%;
+	height:500px;
+	background-image: url("../images/back.jpg");
+	background-size: cover;
+}
+
+.container-inner-first-text p:first-child {
+color: #636363;
+text-transform: uppercase;
+}
+.container-inner-second-text p:first-child{
+color: #636363;
+text-transform: uppercase;
+}
+/*#############################################*/
+
+.container-inner-first-text2 p:first-child {
+color: #636363;
+text-transform: uppercase;
+}
+.container-inner-second-text2 p:first-child{
+color: #636363;
+text-transform: uppercase;
+}
+
