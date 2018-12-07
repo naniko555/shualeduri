@@ -35,6 +35,7 @@
 .container{
     margin: 5%;
   	display: inline-block;
+  	position: relative;
 }
 
 /*photodairy*/
@@ -186,3 +187,50 @@ text-transform: uppercase;
     padding: 10px;
     
 }
+
+/*email input*/
+.email-wrapper{
+	text-align: center;
+}
+.email{
+	border: none;
+	 border-bottom: 2px solid black;
+	 display: inline-block;
+
+}
+
+.email input[type=text]{
+ 	border: none;
+}
+
+
+/*footer is absolute and is relative to container*/
+/*gadasaketebelia*/
+.end{
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+.end-terms-privacy{
+	float: left;
+	display: inline-block;
+	width: 45%;
+
+}
+.end-terms-privacy a{
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	margin-left: 10px; 
+}
+.end-follow {
+	float:right;
+	display: inline-block;
+	width: 45%;
+}
+.end-follow p{
+	display: inline-block;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
